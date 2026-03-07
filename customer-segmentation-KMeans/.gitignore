@@ -1,0 +1,12 @@
+# Data outputs
+code/customer_segments.xlsx
+code/cluster_summary.xlsx
+
+# Raw data
+data/
+
+# Model artifacts
+code/*.pkl
+
+# Virtual environment
+.venv/
