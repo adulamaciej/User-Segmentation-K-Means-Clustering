@@ -1,4 +1,4 @@
-# Customer Segmentation — Online Retail II
+# Data Science project: Customer Segmentation — Online Retail II
 
 RFM-based customer segmentation using KMeans clustering on the UCI Online Retail II dataset (2009–2011, ~1M transactions). This project segments ~5,850 customers into five actionable groups to enable targeted marketing strategies.
 
