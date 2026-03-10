@@ -46,7 +46,7 @@ Outliers are identified per feature using the IQR method (1.5× fence) on Moneta
 
 All features are heavily right-skewed, confirmed by D'Agostino-Pearson normality tests (p ≈ 0 for all). Yeo-Johnson power transformation is applied to normalize distributions. A secondary robust Z-score check (using median and MAD) confirms that remaining post-transformation outliers are negligible in both count and impact.
 
-PCA reduces the four transformed features to three components explaining ~99.8% of variance, decorrelating the moderate multicollinearity between MonetaryValue and Frequency (r=0.85) before clustering.
+PCA reduces the four transformed features to three components explaining ~99.8% of variance, decorrelating the high multicollinearity between MonetaryValue and Frequency (r=0.85) before clustering.
 
 ---
 
